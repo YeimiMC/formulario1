@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <h1>Formulario</h1>
+
+    <form>
+        <label for="nombre">Nombre(s)</label>
+        <input id="nombre" type="text" maxlength="50"
+        placeholder="Escribe tu nombre aquí" required>
+
+        <br>
+
+        <label>Apellido Paterno</label>
+        <input>
+
+        <br>
+
+        <label>Apellido Materno</label>
+        <input>
+        <br>
+        <br>
+
+        <input type="button" value="Botón tipo Botón para que se te canse el dedo">
+        <input type="submit" value="Botón tipo Submit para enviar mi información a un servidor">
+
+        <br>
+        <br>
+
+        <label>Selecciona el tipo de chilaquiles</label>
+        <br>
+
+        <label>chilaquiles verdes</label>
+        <input name="chilaquiles" type="radio">
+        <br>
+        <label>chilaquiles rojos</label>
+        <input name="chilaquiles" type="radio">
+
+        <br>
+        <br>
+
+        <label>¿Te gustan el agua de jamaica?</label>
+        <br>
+
+        <label>Si, es lo mejor</label>
+        <input name="agua" type="radio">
+        <br>
+        <label>No, mejor de horchata</label>
+        <input name="agua" type="radio">
+
+        <br>
+        <br>
+
+        <label>Email</label>
+        <input type="email">
+        <br>
+        <br>
+
+        <label>Teléfono</label>
+        <input type="tel">
+
+        <br>
+        <br>
+
+        <label>Semana</label>
+        <input type="week">
+
+        <br>
+        <br>
+
+        <label>Fecha</label>
+        <input type="date">
+
+        <br>
+        <br>
+
+        <label>Hora</label>
+        <input type="time">
+        <br>
+        <br>
+
+        <label>Sube un archivo</label>
+        <input type="file">
+
+        <br>
+        <br>
+
+        <label>Sube una foto de tu comida favorita</label>
+        <input type="file" accept=".jpg">
+
+        <br>
+        <br>
+
+        <label>Edad </label>
+        <input type="number">
+
+        <br>
+        <br>
+
+        <label>Contraseña</label>
+        <input type="password">
+
+        <br>
+        <br>
+
+        <label>Rango</label>
+        <input type="range">
+
+        <br>
+        <br>
+
+        <label>Color</label>
+        <input type="color">
+
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
+
+<!-- Un formulario es una de las formas más básicas que tenemos para recopilar información de los usuarios. (informacion de inicio de sesion, de contacto, registro para un boletin o citas)  
+
+Para trabajar con formularios, vamos a utilizar la etiqueta form para indicar el espacio donde estara dicho elemento dentro de nuestro documento
+
+La etiqueta input nos sirve ára introducir los datos.
+
+La etiqueta label nos sirve para darle un nombre o una descripción al input y así saber qué información recibe.
+
+Atributos
+- Abtributos para la etiqueta for:
+    - action: específica a dónde vamos a enviar los datos cuando le damos click en el boton enviar.
+    - method: es el método de envío de los datos (get, post)
+
+- Atributos para la etiqueta input
+    - type: Modifica el tipo de campo que vamos a crear
+    - name: Es el nombre del campo
+    *- value: Es el valor que tendrá nuestro campo
+    - placeholder: Agregar texto dentro del input
+    - required: Es un atributo que nos permite definir que el campo es obligatorio o requerido.
+-->
